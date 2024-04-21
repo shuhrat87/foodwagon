@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foods</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/media.css">
+</head>
+
+<body>
+    <nav class="nav">
+        <div class="container">
+            <div class="logo__box">
+                <a href="" class="logo-img1"><svg width="28" height="30" viewBox="0 0 28 30" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <mask id="mask0_401_1245" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                            width="28" height="30">
+                            <path
+                                d="M8.89428 26.3647C8.89428 28.366 7.27197 29.9883 5.27075 29.9883C3.26953 29.9883 1.64722 28.366 1.64722 26.3647C1.64722 24.3635 3.26953 22.7412 5.27075 22.7412C7.27197 22.7412 8.89428 24.3635 8.89428 26.3647Z"
+                                fill="#C4C4C4" />
+                            <path
+                                d="M26.3533 26.3647C26.3533 28.366 24.731 29.9883 22.7297 29.9883C20.7285 29.9883 19.1062 28.366 19.1062 26.3647C19.1062 24.3635 20.7285 22.7412 22.7297 22.7412C24.731 22.7412 26.3533 24.3635 26.3533 26.3647Z"
+                                fill="#C4C4C4" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M25.1913 23.7058C25.4382 23.9345 25.4094 24.3209 25.1508 24.5363C23.7802 25.6779 22.0174 26.3647 20.0941 26.3647H19.7649C19.401 26.3647 19.0998 26.0671 19.1652 25.7091C19.4737 24.0209 20.9522 22.7412 22.7296 22.7412C23.68 22.7412 24.545 23.1071 25.1913 23.7058ZM27.0987 22.1282C26.8986 22.5093 26.3844 22.543 26.0504 22.2717C25.144 21.5354 23.9883 21.0942 22.7296 21.0942C20.0414 21.0942 17.8233 23.1066 17.4996 25.7072C17.4547 26.0682 17.164 26.3647 16.8002 26.3647H11.2C10.8361 26.3647 10.5455 26.0682 10.5006 25.7072C10.1769 23.1066 7.95876 21.0942 5.27059 21.0942C4.0118 21.0942 2.85608 21.5354 1.94969 22.2718C1.61563 22.5431 1.10145 22.5094 0.901402 22.1283C0.325709 21.0317 0 19.7833 0 18.4588V16.8116C0 16.4478 0.294965 16.1528 0.658823 16.1528H27.3412C27.705 16.1528 28 16.4478 28 16.8116V18.4588C28 19.7832 27.6743 21.0316 27.0987 22.1282ZM28 13.8469C28 14.2108 27.705 14.5057 27.3412 14.5057H0.658824C0.294965 14.5057 0 14.2108 0 13.8469V9.89402C0 9.53016 0.294965 9.2352 0.658823 9.2352H27.3412C27.705 9.2352 28 9.53016 28 9.89402V13.8469ZM7.90588 0.0117188C3.883 0.0117188 0.561907 3.0164 0.0643695 6.904C0.0168356 7.27541 0.318678 7.58814 0.693122 7.58814H27.3069C27.6813 7.58814 27.9832 7.27541 27.9356 6.904C27.4381 3.0164 24.117 0.0117188 20.0941 0.0117188H7.90588ZM5.27059 22.7412C7.04795 22.7412 8.52644 24.0209 8.83496 25.7091C8.90037 26.0671 8.59914 26.3647 8.23528 26.3647H7.90588C5.98268 26.3647 4.21987 25.6779 2.84928 24.5364C2.59074 24.321 2.56193 23.9345 2.80878 23.7059C3.45509 23.1072 4.3201 22.7412 5.27059 22.7412Z"
+                                fill="#C4C4C4" />
+                        </mask>
+                        <g mask="url(#mask0_401_1245)">
+                            <rect x="-1.64722" y="-2.29395" width="33.6" height="10.8706"
+                                fill="url(#paint0_linear_401_1245)" />
+                            <rect x="-1.64722" y="15.4941" width="33.6" height="16.4706" fill="#FFA833" />
+                            <rect x="-1.64722" y="8.57666" width="33.6" height="7.24706" rx="3.62353" fill="#F17228" />
+                            <rect x="-23.0586" y="22.7412" width="31.9529" height="7.24706" fill="#F58D00" />
+                            <rect x="19.1062" y="22.7412" width="31.9529" height="7.24706" fill="#F58D00" />
+                            <ellipse cx="8.11249" cy="2.82316" rx="1" ry="0.5"
+                                transform="rotate(-20.8548 8.11249 2.82316)" fill="white" />
+                            <ellipse cx="14" cy="2.5" rx="1" ry="0.5" fill="white" />
+                            <ellipse cx="19.1176" cy="2.91225" rx="1" ry="0.5"
+                                transform="rotate(28.1155 19.1176 2.91225)" fill="white" />
+                        </g>
+                        <defs>
+                            <linearGradient id="paint0_linear_401_1245" x1="14.9999" y1="-0.5" x2="14.9999" y2="17"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#FFD16D" />
+                                <stop offset="1" stop-color="#FF7A00" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </a>
+                <a href="" class="logo-img2"><svg width="273" height="38" viewBox="0 0 273 38" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M3.29992 30.6167V18.7637H1.24664V15.3727L3.29992 15.2172V14.3772C3.29992 13.5683 3.39325 12.8009 3.57991 12.075C3.78731 11.3491 4.11915 10.7165 4.57544 10.1773C5.03172 9.63806 5.62281 9.21288 6.34872 8.90178C7.07462 8.59068 7.95608 8.43513 8.99308 8.43513C9.63603 8.43513 10.2168 8.49735 10.7353 8.62179C11.2745 8.74623 11.7204 8.87067 12.073 8.99511L11.233 12.355C10.6523 12.1476 10.1234 12.0439 9.6464 12.0439C9.08641 12.0439 8.65087 12.2202 8.33977 12.5728C8.02867 12.9046 7.87312 13.4646 7.87312 14.2527V15.186H10.6419V18.7637H7.87312V30.6167H3.29992ZM18.6701 30.99C17.6953 30.99 16.7516 30.8137 15.839 30.4611C14.9265 30.0878 14.1176 29.559 13.4124 28.8745C12.728 28.1901 12.1784 27.3501 11.7636 26.3546C11.3488 25.3383 11.1414 24.1873 11.1414 22.9014C11.1414 21.6155 11.3488 20.4748 11.7636 19.4792C12.1784 18.463 12.728 17.6126 13.4124 16.9282C14.1176 16.2438 14.9265 15.7253 15.839 15.3727C16.7516 14.9994 17.6953 14.8127 18.6701 14.8127C19.6448 14.8127 20.5781 14.9994 21.47 15.3727C22.3825 15.7253 23.181 16.2438 23.8655 16.9282C24.5706 17.6126 25.1306 18.463 25.5454 19.4792C25.9602 20.4748 26.1676 21.6155 26.1676 22.9014C26.1676 24.1873 25.9602 25.3383 25.5454 26.3546C25.1306 27.3501 24.5706 28.1901 23.8655 28.8745C23.181 29.559 22.3825 30.0878 21.47 30.4611C20.5781 30.8137 19.6448 30.99 18.6701 30.99ZM18.6701 27.2879C19.6034 27.2879 20.3085 26.8938 20.7855 26.1057C21.2626 25.3176 21.5011 24.2495 21.5011 22.9014C21.5011 21.5533 21.2626 20.4851 20.7855 19.697C20.3085 18.9089 19.6034 18.5148 18.6701 18.5148C17.716 18.5148 17.0005 18.9089 16.5235 19.697C16.0672 20.4851 15.839 21.5533 15.839 22.9014C15.839 24.2495 16.0672 25.3176 16.5235 26.1057C17.0005 26.8938 17.716 27.2879 18.6701 27.2879ZM35.1487 30.99C34.174 30.99 33.2303 30.8137 32.3177 30.4611C31.4051 30.0878 30.5963 29.559 29.8911 28.8745C29.2067 28.1901 28.6571 27.3501 28.2423 26.3546C27.8275 25.3383 27.6201 24.1873 27.6201 22.9014C27.6201 21.6155 27.8275 20.4748 28.2423 19.4792C28.6571 18.463 29.2067 17.6126 29.8911 16.9282C30.5963 16.2438 31.4051 15.7253 32.3177 15.3727C33.2303 14.9994 34.174 14.8127 35.1487 14.8127C36.1235 14.8127 37.0568 14.9994 37.9487 15.3727C38.8612 15.7253 39.6597 16.2438 40.3441 16.9282C41.0493 17.6126 41.6093 18.463 42.0241 19.4792C42.4389 20.4748 42.6463 21.6155 42.6463 22.9014C42.6463 24.1873 42.4389 25.3383 42.0241 26.3546C41.6093 27.3501 41.0493 28.1901 40.3441 28.8745C39.6597 29.559 38.8612 30.0878 37.9487 30.4611C37.0568 30.8137 36.1235 30.99 35.1487 30.99ZM35.1487 27.2879C36.082 27.2879 36.7872 26.8938 37.2642 26.1057C37.7413 25.3176 37.9798 24.2495 37.9798 22.9014C37.9798 21.5533 37.7413 20.4851 37.2642 19.697C36.7872 18.9089 36.082 18.5148 35.1487 18.5148C34.1947 18.5148 33.4792 18.9089 33.0021 19.697C32.5459 20.4851 32.3177 21.5533 32.3177 22.9014C32.3177 24.2495 32.5459 25.3176 33.0021 26.1057C33.4792 26.8938 34.1947 27.2879 35.1487 27.2879ZM50.5075 30.99C49.5534 30.99 48.6823 30.8034 47.8942 30.43C47.1268 30.0567 46.4631 29.5278 45.9031 28.8434C45.3639 28.1383 44.9387 27.2879 44.6276 26.2924C44.3373 25.2969 44.1921 24.1665 44.1921 22.9014C44.1921 21.6362 44.3684 20.5059 44.721 19.5104C45.0943 18.5148 45.5713 17.6749 46.152 16.9904C46.7535 16.2853 47.4379 15.746 48.2053 15.3727C48.9934 14.9994 49.7919 14.8127 50.6008 14.8127C51.4719 14.8127 52.1874 14.9579 52.7474 15.2483C53.3074 15.5386 53.857 15.9327 54.3962 16.4304L54.2096 14.0661V8.80845H58.7828V30.6167H55.0495L54.7384 29.0923H54.614C54.0748 29.6315 53.4422 30.0878 52.7163 30.4611C51.9904 30.8137 51.2541 30.99 50.5075 30.99ZM51.6896 27.2568C52.1874 27.2568 52.6333 27.1531 53.0274 26.9457C53.4422 26.7383 53.8362 26.3753 54.2096 25.8568V19.5415C53.7948 19.1681 53.3696 18.9089 52.934 18.7637C52.4985 18.6185 52.0733 18.5459 51.6585 18.5459C50.9326 18.5459 50.2897 18.8985 49.7297 19.6037C49.1697 20.2881 48.8897 21.3666 48.8897 22.8392C48.8897 24.3739 49.1282 25.4939 49.6053 26.1991C50.103 26.9042 50.7978 27.2568 51.6896 27.2568Z"
+                            fill="#F17228" />
+                        <path
+                            d="M65.8796 28.6167H71.4483L72.6616 22.6747C72.9416 21.2436 73.1283 19.8747 73.3772 18.1015H73.5016C73.7505 19.8747 73.9994 21.2436 74.2793 22.6747L75.5238 28.6167H81.248L84.8879 13.1549H80.4392L79.0703 20.1236C78.7903 21.6169 78.6659 23.1102 78.3859 24.7901H78.2615C77.9815 23.1102 77.7015 21.6169 77.3593 20.1236L75.7104 13.1549H71.4483L69.8617 20.1236C69.5195 21.5858 69.2706 23.1102 68.9906 24.7901H68.8662C68.6484 23.1102 68.4617 21.6169 68.2129 20.1236L66.8129 13.1549H62.053L65.8796 28.6167ZM90.5954 28.99C92.3376 28.99 93.7376 28.2123 95.0131 27.0612H95.1375L95.4797 28.6167H99.3996V19.8436C99.3996 14.9904 97.1597 12.7816 93.1776 12.7816C90.751 12.7816 88.5422 13.5594 86.52 14.8038L88.1999 17.9148C89.7555 17.0437 90.9999 16.6082 92.2443 16.6082C93.8309 16.6082 94.4842 17.3548 94.6086 18.6303C88.511 19.2525 85.9911 21.0258 85.9911 24.2924C85.9911 26.8745 87.7644 28.99 90.5954 28.99ZM92.2443 25.2568C91.1865 25.2568 90.5954 24.8213 90.5954 23.9191C90.5954 22.8302 91.5287 21.9902 94.6086 21.5858V24.0435C93.862 24.7901 93.2087 25.2568 92.2443 25.2568ZM110.059 28.9221C108.905 28.9221 107.819 28.7525 106.801 28.4131C105.783 28.0567 104.892 27.5307 104.128 26.8349C103.382 26.1222 102.788 25.2398 102.347 24.1877C101.922 23.1187 101.71 21.8799 101.71 20.4715C101.71 19.08 101.931 17.8497 102.372 16.7807C102.813 15.6947 103.407 14.7868 104.154 14.0571C104.917 13.3105 105.8 12.742 106.801 12.3517C107.802 11.9614 108.854 11.7663 109.957 11.7663C111.179 11.7663 112.231 11.9869 113.114 12.4281C114.013 12.8523 114.76 13.3614 115.354 13.9553L113.063 16.7552C112.655 16.3989 112.223 16.1104 111.765 15.8898C111.323 15.6522 110.772 15.5334 110.11 15.5334C109.55 15.5334 109.032 15.6437 108.557 15.8643C108.082 16.0849 107.666 16.3989 107.31 16.8061C106.954 17.2134 106.674 17.714 106.47 18.3079C106.283 18.9018 106.19 19.5721 106.19 20.3188C106.19 21.8799 106.538 23.0763 107.234 23.9077C107.929 24.7392 109.024 25.155 110.517 25.155C110.755 25.155 110.984 25.1295 111.205 25.0786C111.442 25.0277 111.637 24.9514 111.79 24.8495V22.5587H109.346V18.9952H115.659V26.8858C115.065 27.4458 114.276 27.9294 113.292 28.3367C112.308 28.727 111.23 28.9221 110.059 28.9221ZM125.185 28.99C129.136 28.99 132.776 26.0034 132.776 20.8703C132.776 15.7371 129.136 12.7816 125.185 12.7816C121.265 12.7816 117.626 15.7371 117.626 20.8703C117.626 26.0034 121.265 28.99 125.185 28.99ZM125.185 25.1012C123.381 25.1012 122.541 23.4524 122.541 20.8703C122.541 18.3192 123.381 16.6393 125.185 16.6393C126.99 16.6393 127.83 18.3192 127.83 20.8703C127.83 23.4524 126.99 25.1012 125.185 25.1012ZM135.036 28.6167H139.827V18.257C140.791 17.3859 141.445 16.857 142.534 16.857C143.778 16.857 144.338 17.5104 144.338 19.657V28.6167H149.16V19.0348C149.16 15.1771 147.729 12.7816 144.369 12.7816C142.254 12.7816 140.698 13.8394 139.423 15.0838H139.298L138.956 13.1549H135.036V28.6167Z"
+                            fill="#FFB30E" />
+                    </svg>
+                </a>
+            </div>
+            <div class="nav__burger">
+                <span class="nav__burger-line"></span>
+            </div>
+            <div class="nav__menu">
+                <div class="nav__middle-box">
+                    <p class="nav__deliver">Deliver to:</p>
+                    <a href="nav__location"><svg width="14" height="19" viewBox="0 0 14 19" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.29688 18.3984C6.61328 18.8906 7.35156 18.8906 7.66797 18.3984C12.8008 11.0156 13.75 10.2422 13.75 7.5C13.75 3.77344 10.7266 0.75 7 0.75C3.23828 0.75 0.25 3.77344 0.25 7.5C0.25 10.2422 1.16406 11.0156 6.29688 18.3984ZM7 10.3125C5.41797 10.3125 4.1875 9.08203 4.1875 7.5C4.1875 5.95312 5.41797 4.6875 7 4.6875C8.54688 4.6875 9.8125 5.95312 9.8125 7.5C9.8125 9.08203 8.54688 10.3125 7 10.3125Z"
+                                fill="#FFB30E" />
+                        </svg>
+
+                    </a>
+                    <p class="current__loc">Current Location</p>
+                    <p class="nav__adresse">Mohammadpur Bus Stand, Dhaka</p>
+                </div>
+                <div class="nav__search-box">
+                    <div class="nav__search">
+                        <a href=""><svg width="19" height="19" viewBox="0 0 19 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M17.7539 15.8242L14.2383 12.3086C14.0625 12.168 13.8516 12.0625 13.6406 12.0625H13.0781C14.0273 10.832 14.625 9.28516 14.625 7.5625C14.625 3.55469 11.3203 0.25 7.3125 0.25C3.26953 0.25 0 3.55469 0 7.5625C0 11.6055 3.26953 14.875 7.3125 14.875C9 14.875 10.5469 14.3125 11.8125 13.3281V13.9258C11.8125 14.1367 11.8828 14.3477 12.0586 14.5234L15.5391 18.0039C15.8906 18.3555 16.418 18.3555 16.7344 18.0039L17.7188 17.0195C18.0703 16.7031 18.0703 16.1758 17.7539 15.8242ZM7.3125 12.0625C4.81641 12.0625 2.8125 10.0586 2.8125 7.5625C2.8125 5.10156 4.81641 3.0625 7.3125 3.0625C9.77344 3.0625 11.8125 5.10156 11.8125 7.5625C11.8125 10.0586 9.77344 12.0625 7.3125 12.0625Z"
+                                    fill="#FFB30E" />
+                            </svg>
+                        </a>
+                        <a href="" class="search__food">Search Food</a>
+                    </div>
+                    <div class="login__img-box">
+                        <a href="" class="login__img"><svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8 9.25C10.4609 9.25 12.5 7.24609 12.5 4.75C12.5 2.28906 10.4609 0.25 8 0.25C5.50391 0.25 3.5 2.28906 3.5 4.75C3.5 7.24609 5.50391 9.25 8 9.25ZM11.1289 10.375H10.5312C9.75781 10.7617 8.91406 10.9375 8 10.9375C7.08594 10.9375 6.20703 10.7617 5.43359 10.375H4.83594C2.23438 10.375 0.125 12.5195 0.125 15.1211V16.5625C0.125 17.5117 0.863281 18.25 1.8125 18.25H14.1875C15.1016 18.25 15.875 17.5117 15.875 16.5625V15.1211C15.875 12.5195 13.7305 10.375 11.1289 10.375Z"
+                                    fill="url(#paint0_linear_401_1279)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_401_1279" x1="-7.02825" y1="-22.35" x2="23.9034"
+                                        y2="-20.9848" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#FFB800" />
+                                        <stop offset="1" stop-color="#FF8A00" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </a>
+                        <a href="" class="btn__login">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <header class="header">
+        <div class="container">
+            <div class="header__box">
+                <h1 class="header__title">Are you starving?</h1>
+                <p class="header__text">Within a few clicks, find meals that are accessible near you</p>
+                <div class="header__box-find">
+                    <div class="header__box1-find">
+                        <div class="header__box2-find">
+                            <a href=""><svg width="24" height="15" viewBox="0 0 24 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19 5C18.5078 5 17.9805 5.10547 17.5234 5.24609L16.3633 3.3125H19.2812C19.7383 3.3125 20.125 2.96094 20.125 2.46875V1.34375C20.125 0.886719 19.7383 0.5 19.2812 0.5H17.6641C17.418 0.5 17.207 0.605469 17.0312 0.78125L15.7305 2.25781L14.9219 0.921875C14.7812 0.675781 14.5 0.5 14.2188 0.5H11.4062C11.0898 0.5 10.8438 0.78125 10.8438 1.0625V1.625C10.8438 1.94141 11.0898 2.1875 11.4062 2.1875H13.7266L14.3945 3.3125H8.98047C8.38281 2.50391 7.43359 1.90625 5.5 1.90625H3.53125C3.07422 1.90625 2.65234 2.29297 2.6875 2.78516C2.6875 3.24219 3.03906 3.59375 3.53125 3.59375H5.5C6.34375 3.59375 6.83594 3.98047 7.15234 4.47266L6.76562 5.21094C6.30859 5.07031 5.81641 5 5.32422 5.03516C2.93359 5.10547 1.03516 7.03906 1 9.39453C0.929688 11.9609 2.96875 14 5.5 14C7.57422 14 9.33203 12.5938 9.85938 10.625H12.8125C13.2695 10.625 13.6562 10.2383 13.6562 9.74609C13.5859 8.09375 14.2539 6.47656 15.625 5.35156L16.0469 6.08984C15.0977 6.93359 14.4648 8.16406 14.5 9.53516C14.5 11.9961 16.5039 14 18.9297 14C21.4609 14.0352 23.5 11.9961 23.5 9.46484C23.4648 7.03906 21.4609 5.03516 19 5ZM5.5 12.3125C3.91797 12.3125 2.6875 11.082 2.6875 9.5C2.6875 7.95312 3.91797 6.6875 5.5 6.6875C5.64062 6.6875 5.78125 6.72266 5.92188 6.72266L4.48047 9.39453C4.16406 9.95703 4.55078 10.625 5.21875 10.625H8.06641C7.60938 11.6445 6.625 12.3125 5.5 12.3125ZM21.7773 9.67578C21.707 11.082 20.5469 12.2422 19.1406 12.3125C17.5234 12.418 16.1875 11.1172 16.1875 9.5C16.1875 8.76172 16.4688 8.09375 16.9609 7.56641L18.6836 10.4844C18.8594 10.7305 19.1758 10.8359 19.457 10.6602L19.9492 10.3789C20.1953 10.2383 20.3008 9.88672 20.125 9.60547L18.4375 6.75781C18.6133 6.72266 18.7891 6.72266 19 6.72266C20.582 6.6875 21.8828 8.05859 21.7773 9.67578Z"
+                                        fill="#F17228" />
+                                </svg>
+                            </a>
+                            <a href="" class="box__find-link">Delivery</a>
+                        </div>
+                        <div class="header__box3-find">
+                            <a href="#!"><svg width="16" height="19" viewBox="0 0 16 19" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12.375 5.875V4.75C12.375 2.28906 10.3359 0.25 7.875 0.25C5.37891 0.25 3.375 2.28906 3.375 4.75V5.875H0V15.4375C0 17.0195 1.23047 18.25 2.8125 18.25H12.9375C14.4844 18.25 15.75 17.0195 15.75 15.4375V5.875H12.375ZM5.625 4.75C5.625 3.51953 6.60938 2.5 7.875 2.5C9.10547 2.5 10.125 3.51953 10.125 4.75V5.875H5.625V4.75ZM11.25 8.96875C10.7578 8.96875 10.4062 8.61719 10.4062 8.125C10.4062 7.66797 10.7578 7.28125 11.25 7.28125C11.707 7.28125 12.0938 7.66797 12.0938 8.125C12.0938 8.61719 11.707 8.96875 11.25 8.96875ZM4.5 8.96875C4.00781 8.96875 3.65625 8.61719 3.65625 8.125C3.65625 7.66797 4.00781 7.28125 4.5 7.28125C4.95703 7.28125 5.34375 7.66797 5.34375 8.125C5.34375 8.61719 4.95703 8.96875 4.5 8.96875Z"
+                                        fill="#757575" />
+                                </svg>
+                            </a>
+                            <a href="#!" class="box__find-link2">Pickup</a>
+                        </div>
+                    </div>
+
+                    <form action="" class="form__box">
+                        <div class="form__box2">
+                            <a href="#!"><svg width="18" height="26" viewBox="0 0 18 26" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M8.0625 24.4729C8.48438 25.1292 9.46875 25.1292 9.89062 24.4729C16.7344 14.6292 18 13.5979 18 9.94165C18 4.9729 13.9688 0.94165 9 0.94165C3.98438 0.94165 0 4.9729 0 9.94165C0 13.5979 1.21875 14.6292 8.0625 24.4729ZM9 13.6917C6.89062 13.6917 5.25 12.051 5.25 9.94165C5.25 7.87915 6.89062 6.19165 9 6.19165C11.0625 6.19165 12.75 7.87915 12.75 9.94165C12.75 12.051 11.0625 13.6917 9 13.6917Z"
+                                        fill="#FF7474" />
+                                </svg>
+                            </a>
+                            <input type="adresse" class="input__adresse" placeholder="Enter Your Address" required>
+                        </div>
+                        <button class="btn__form">
+                            <a href="#!"><svg width="15" height="15" viewBox="0 0 15 15" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M13.8086 12.3049L11.0742 9.57056C10.9375 9.46118 10.7734 9.37915 10.6094 9.37915H10.1719C10.9102 8.42212 11.375 7.21899 11.375 5.87915C11.375 2.76196 8.80469 0.19165 5.6875 0.19165C2.54297 0.19165 0 2.76196 0 5.87915C0 9.02368 2.54297 11.5667 5.6875 11.5667C7 11.5667 8.20312 11.1292 9.1875 10.3635V10.8284C9.1875 10.9924 9.24219 11.1565 9.37891 11.2932L12.0859 14.0002C12.3594 14.2737 12.7695 14.2737 13.0156 14.0002L13.7812 13.2346C14.0547 12.9885 14.0547 12.5784 13.8086 12.3049ZM5.6875 9.37915C3.74609 9.37915 2.1875 7.82056 2.1875 5.87915C2.1875 3.96509 3.74609 2.37915 5.6875 2.37915C7.60156 2.37915 9.1875 3.96509 9.1875 5.87915C9.1875 7.82056 7.60156 9.37915 5.6875 9.37915Z"
+                                        fill="white" />
+                                </svg>
+                            </a>
+                            <p class="btn__form-text">Find Food</p>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="header__box-img">
+                <img src="./image/header/Image Base.png" class="header__box-image" alt="">
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section class="greys__vage">
+            <div class="container">
+                <div class="greys__cards">
+                    <div class="greys__card">
+                        <div class="greys__card2">
+                            <img src="./image/main/greysvage/img1.png" class="greys__card-image" alt="">
+                            <div class="greys__card-price">
+                                <h2 class="price">15</h2>
+                                <div class="price__box">
+                                    <h5 class="price__box-card1">%</h5>
+                                    <h6 class="price__box-card2">Off</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="greys__card-txt">
+                            <h6 class="greys__card-title">Greys Vage</h6>
+                            <h6 class="greys__card-subtitle">6 Days Remaining</h6>
+                        </div>
+                    </div>
+                    <div class="greys__card">
+                        <div class="greys__card2">
+                            <img src="./image/main/greysvage/Image2.png" class="greys__card-image" alt="">
+                            <div class="greys__card-price">
+                                <h2 class="price">10</h2>
+                                <div class="price__box">
+                                    <h5 class="price__box-card1">%</h5>
+                                    <h6 class="price__box-card2">Off</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="greys__card-txt">
+                            <h6 class="greys__card-title">Greys Vage</h6>
+                            <h6 class="greys__card-subtitle">6 Days Remaining</h6>
+                        </div>
+                    </div>
+                    <div class="greys__card">
+                        <div class="greys__card2">
+                            <img src="./image/main/greysvage/Image3.png" class="greys__card-image" alt="">
+                            <div class="greys__card-price">
+                                <h2 class="price">25</h2>
+                                <div class="price__box">
+                                    <h5 class="price__box-card1">%</h5>
+                                    <h6 class="price__box-card2">Off</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="greys__card-txt">
+                            <h6 class="greys__card-title">Greys Vage</h6>
+                            <h6 class="greys__card-subtitle">6 Days Remaining</h6>
+                        </div>
+                    </div>
+                    <div class="greys__card">
+                        <div class="greys__card2">
+                            <img src="./image/main/greysvage/Image4.png" class="greys__card-image" alt="">
+                            <div class="greys__card-price">
+                                <h2 class="price">20</h2>
+                                <div class="price__box">
+                                    <h5 class="price__box-card1">%</h5>
+                                    <h6 class="price__box-card2">Off</h6>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="greys__card-txt">
+                            <h6 class="greys__card-title">Greys Vage</h6>
+                            <h6 class="greys__card-subtitle">6 Days Remaining</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="works">
+            <div class="container">
+                <h4 class="works__title title">How does it work</h4>
+                <div class="work__box">
+                    <div class="work__box-card">
+                        <a href="" class="work__image"><img src="./image/main/work/Map Marker1.png" alt=""></a>
+                        <h6 class="work__subtitle subtitle">Select location</h6>
+                        <p class="work__txt">Choose the location where your food will be delivered.</p>
+                    </div>
+                    <div class="work__box-card">
+                        <a href="" class="work__image"><img src="./image/main/work/Icons2.png" alt=""></a>
+                        <h6 class="work__subtitle subtitle">Choose order</h6>
+                        <p class="work__txt">Check over hundreds of menus to pick your favorite food</p>
+                    </div>
+                    <div class="work__box-card">
+                        <a href="" class="work__image"><img src="./image/main/work/Invoice3.png" alt=""></a>
+                        <h6 class="work__subtitle subtitle">Pay advanced</h6>
+                        <p class="work__txt">It's quick, safe, and simple. Select several methods of payment</p>
+                    </div>
+                    <div class="work__box-card">
+                        <a href="" class="work__image"><img src="./image/main/work/Donut4.png" alt=""></a>
+                        <h6 class="work__subtitle subtitle">Enjoy meals</h6>
+                        <p class="work__txt">Food is made and delivered directly to your home.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="popular">
+            <button class="img__left"> <img src="./image/main/popular/Arrow Left.svg" width="76px" height="76px"
+                    alt=""></button>
+            <div class="container">
+                <h4 class="popular__title title">Popular items</h4>
+                <div class="popular__box-cards">
+                    <div class="popular__card">
+                        <img src="./image/main/popular/img1.png" alt="">
+                        <h6 class="popular__subtitle subtitle">Cheese Burger</h6>
+                        <a href="#!" class="popular__subtitle2 subtitle2"><svg width="14" height="19"
+                                viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.04688 17.8984C0.914062 10.5156 0 9.74219 0 7C0 3.27344 2.98828 0.25 6.75 0.25C10.4766 0.25 13.5 3.27344 13.5 7C13.5 9.74219 12.5508 10.5156 7.41797 17.8984C7.10156 18.3906 6.36328 18.3906 6.04688 17.8984ZM6.75 9.8125C8.29688 9.8125 9.5625 8.58203 9.5625 7C9.5625 5.45312 8.29688 4.1875 6.75 4.1875C5.16797 4.1875 3.9375 5.45312 3.9375 7C3.9375 8.58203 5.16797 9.8125 6.75 9.8125Z"
+                                    fill="#FFB30E" />
+                            </svg>
+                            Burger Arena
+                        </a>
+                        <h6 class="popular__price subtitle">$3.88</h6>
+                        <button class="popular__btn">Order Now</button>
+                    </div>
+                    <div class="popular__card">
+                        <img src="./image/main/popular/img2.png" alt="">
+                        <h6 class="popular__subtitle subtitle">Toffe’s Cake</h6>
+                        <a href="#!" class="popular__subtitle2 subtitle2"><svg width="14" height="19"
+                                viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.04688 17.8984C0.914062 10.5156 0 9.74219 0 7C0 3.27344 2.98828 0.25 6.75 0.25C10.4766 0.25 13.5 3.27344 13.5 7C13.5 9.74219 12.5508 10.5156 7.41797 17.8984C7.10156 18.3906 6.36328 18.3906 6.04688 17.8984ZM6.75 9.8125C8.29688 9.8125 9.5625 8.58203 9.5625 7C9.5625 5.45312 8.29688 4.1875 6.75 4.1875C5.16797 4.1875 3.9375 5.45312 3.9375 7C3.9375 8.58203 5.16797 9.8125 6.75 9.8125Z"
+                                    fill="#FFB30E" />
+                            </svg>
+                            Top Sticks
+                        </a>
+                        <h6 class="popular__price subtitle">$4.00</h6>
+                        <button class="popular__btn">Order Now</button>
+                    </div>
+                    <div class="popular__card">
+                        <img src="./image/main/popular/img3.png" alt="">
+                        <h6 class="popular__subtitle subtitle">Dancake</h6>
+                        <a href="#!" class="popular__subtitle2 subtitle2"><svg width="14" height="19"
+                                viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.04688 17.8984C0.914062 10.5156 0 9.74219 0 7C0 3.27344 2.98828 0.25 6.75 0.25C10.4766 0.25 13.5 3.27344 13.5 7C13.5 9.74219 12.5508 10.5156 7.41797 17.8984C7.10156 18.3906 6.36328 18.3906 6.04688 17.8984ZM6.75 9.8125C8.29688 9.8125 9.5625 8.58203 9.5625 7C9.5625 5.45312 8.29688 4.1875 6.75 4.1875C5.16797 4.1875 3.9375 5.45312 3.9375 7C3.9375 8.58203 5.16797 9.8125 6.75 9.8125Z"
+                                    fill="#FFB30E" />
+                            </svg>
+                            Cake World
+                        </a>
+                        <h6 class="popular__price subtitle">$1.99</h6>
+                        <button class="popular__btn">Order Now</button>
+                    </div>
+                    <div class="popular__card">
+                        <img src="./image/main/popular/img4.png" alt="">
+                        <h6 class="popular__subtitle subtitle">Crispy Sandwitch</h6>
+                        <a href="#!" class="popular__subtitle2 subtitle2"><svg width="14" height="19"
+                                viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.04688 17.8984C0.914062 10.5156 0 9.74219 0 7C0 3.27344 2.98828 0.25 6.75 0.25C10.4766 0.25 13.5 3.27344 13.5 7C13.5 9.74219 12.5508 10.5156 7.41797 17.8984C7.10156 18.3906 6.36328 18.3906 6.04688 17.8984ZM6.75 9.8125C8.29688 9.8125 9.5625 8.58203 9.5625 7C9.5625 5.45312 8.29688 4.1875 6.75 4.1875C5.16797 4.1875 3.9375 5.45312 3.9375 7C3.9375 8.58203 5.16797 9.8125 6.75 9.8125Z"
+                                    fill="#FFB30E" />
+                            </svg>
+                            Fastfood Dine
+                        </a>
+                        <h6 class="popular__price subtitle">$3.00</h6>
+                        <button class="popular__btn">Order Now</button>
+                    </div>
+                    <div class="popular__card">
+                        <img src="./image/main/popular/img5.png" alt="">
+                        <h6 class="popular__subtitle subtitle">Thai Soup</h6>
+                        <a href="#!" class="popular__subtitle2 subtitle2"><svg width="14" height="19"
+                                viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.04688 17.8984C0.914062 10.5156 0 9.74219 0 7C0 3.27344 2.98828 0.25 6.75 0.25C10.4766 0.25 13.5 3.27344 13.5 7C13.5 9.74219 12.5508 10.5156 7.41797 17.8984C7.10156 18.3906 6.36328 18.3906 6.04688 17.8984ZM6.75 9.8125C8.29688 9.8125 9.5625 8.58203 9.5625 7C9.5625 5.45312 8.29688 4.1875 6.75 4.1875C5.16797 4.1875 3.9375 5.45312 3.9375 7C3.9375 8.58203 5.16797 9.8125 6.75 9.8125Z"
+                                    fill="#FFB30E" />
+                            </svg>
+                            Foody man
+                        </a>
+                        <h6 class="popular__price subtitle">$2.79</h6>
+                        <button class="popular__btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <button class="img__right"> <img src="./image/main/popular/Arrow Right.svg" width="76px" height="76px"
+                    alt=""></button>
+        </section>
+        <section class="feature">
+            <div class="container">
+                <h6 class="featurer__title title">Featured Restaurants</h6>
+                <div class="feature__cards">
+                    <div class="feature__card">
+                        <div class="feature__card-boximage">
+                            <img src="./image/main/feature/Image (1).png" alt="">
+                            <div class="feature__info-box">
+                                <div class="feature__info">
+                                    <img src="./image/main/feature/Icon (3).svg" alt="">
+                                    <p>20% off</p>
+                                </div>
+                                <div class="feature__info2">
+                                    <img src="./image/main/feature/Icon (4).svg" alt="">
+                                    <p>Fast</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature__box-card">
+                            <img src="./image/main/feature/friend1.svg" alt="">
+                            <div class="feature__box-card1">
+                                <h6 class="feature__subtitle subtitle">Foodworld</h6>
+                                <a href="#!" class="feature__subtitle2 subtitle2"><img
+                                        src="./image/main/feature/zvezda.svg" alt="">46</a>
+                            </div>
+                        </div>
+                        <button class="feature__btn">Opens tomorrow</button>
+
+                    </div>
+                    <div class="feature__card">
+                        <div class="feature__card-boximage">
+                            <img src="./image/main/feature/Image (2).png" alt="">
+                            <div class="feature__info-box">
+                                <div class="feature__info">
+                                    <img src="./image/main/feature/Icon (3).svg" alt="">
+                                    <p>15% off</p>
+                                </div>
+                                <div class="feature__info2">
+                                    <img src="./image/main/feature/Icon (4).svg" alt="">
+                                    <p>Fast</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature__box-card">
+                            <img src="./image/main/feature/rino2.svg" alt="">
+                            <div class="feature__box-card1">
+                                <h6 class="feature__subtitle subtitle">Pizzahub</h6>
+                                <a href="#!" class="feature__subtitle2 subtitle2"><img
+                                        src="./image/main/feature/zvezda.svg" alt="">40</a>
+                            </div>
+                        </div>
+                        <button class="feature__btn">Opens tomorrow</button>
+
+                    </div>
+                    <div class="feature__card">
+                        <div class="feature__card-boximage">
+                            <img src="./image/main/feature/Image (3).png" alt="">
+                            <div class="feature__info-box">
+                                <div class="feature__info">
+                                    <img src="./image/main/feature/Icon (3).svg" alt="">
+                                    <p>10% off</p>
+                                </div>
+                                <div class="feature__info2">
+                                    <img src="./image/main/feature/Icon (4).svg" alt="">
+                                    <p>Fast</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature__box-card">
+                            <img src="./image/main/feature/dunkin3.svg" alt="">
+                            <div class="feature__box-card1">
+                                <h6 class="feature__subtitle subtitle">Donuts hut</h6>
+                                <a href="#!" class="feature__subtitle2 subtitle2"><img
+                                        src="./image/main/feature/zvezda.svg" alt="">20</a>
+                            </div>
+                        </div>
+                        <button class="feature__btn2">Open Now</button>
+
+                    </div>
+                    <div class="feature__card">
+                        <div class="feature__card-boximage">
+                            <img src="./image/main/feature/Image (4).png" alt="">
+                            <div class="feature__info-box">
+                                <div class="feature__info">
+                                    <img src="./image/main/feature/Icon (3).svg" alt="">
+                                    <p>15% off</p>
+                                </div>
+                                <div class="feature__info2">
+                                    <img src="./image/main/feature/Icon (4).svg" alt="">
+                                    <p>Fast</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature__box-card">
+                            <img src="./image/main/feature/subway4.svg" alt="">
+                            <div class="feature__box-card1">
+                                <h6 class="feature__subtitle subtitle">Donuts hut</h6>
+                                <a href="#!" class="feature__subtitle2 subtitle2"><img
+                                        src="./image/main/feature/zvezda.svg" alt="">50</a>
+                            </div>
+                        </div>
+                        <button class="feature__btn2">Open Now</button>
+
+                    </div>
+                </div>
+                <div class="feature__cards2">
+                    <div class="feature__card">
+                        <div class="feature__card-boximage">
+                            <img src="./image/main/feature2/ruby1.png" alt="">
+                            <div class="feature__info-box">
+                                <div class="feature__info">
+                                    <img src="./image/main/feature/Icon (3).svg" alt="">
+                                    <p>10% off</p>
+                                </div>
+                                <div class="feature__info2">
+                                    <img src="./image/main/feature/Icon (4).svg" alt="">
+                                    <p>Fast</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature__box-card">
+                            <img src="./image/main/feature2/ruby.svg" alt="">
+                            <div class="feature__box-card1">
+                                <h6 class="feature__subtitle subtitle">Ruby Tuesday</h6>
+                                <a href="#!" class="feature__subtitle2 subtitle2"><img
+                                        src="./image/main/feature/zvezda.svg" alt="">26</a>
+                            </div>
+                        </div>
+                        <button class="feature__btn2">Open Now</button>
+
+                    </div>
+                    <div class="feature__card">
+                        <div class="feature__card-boximage">
+                            <img src="./image/main/feature2/Image2.png" alt="">
+                            <div class="feature__info-box">
+                                <div class="feature__info">
+                                    <img src="./image/main/feature/Icon (3).svg" alt="">
+                                    <p>25% off</p>
+                                </div>
+                                <div class="feature__info2">
+                                    <img src="./image/main/feature/Icon (4).svg" alt="">
+                                    <p>Fast</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature__box-card">
+                            <img src="./image/main/feature2/kfc.svg" alt="">
+                            <div class="feature__box-card1">
+                                <h6 class="feature__subtitle subtitle">Kuakata Fried Chicken</h6>
+                                <a href="#!" class="feature__subtitle2 subtitle2"><img
+                                        src="./image/main/feature/zvezda.svg" alt="">53</a>
+                            </div>
+                        </div>
+                        <button class="feature__btn2">Open Now</button>
+
+                    </div>
+                    <div class="feature__card">
+                        <div class="feature__card-boximage">
+                            <img src="./image/main/feature2/Image3.png" alt="">
+                            <div class="feature__info-box">
+                                <div class="feature__info">
+                                    <img src="./image/main/feature/Icon (3).svg" alt="">
+                                    <p>10% off</p>
+                                </div>
+                                <div class="feature__info2">
+                                    <img src="./image/main/feature/Icon (4).svg" alt="">
+                                    <p>Fast</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature__box-card">
+                            <img src="./image/main/feature2/red.svg" alt="">
+                            <div class="feature__box-card1">
+                                <h6 class="feature__subtitle subtitle">Red Square</h6>
+                                <a href="#!" class="feature__subtitle2 subtitle2"><img
+                                        src="./image/main/feature/zvezda.svg" alt="">45</a>
+                            </div>
+                        </div>
+                        <button class="feature__btn2">Open Now</button>
+
+                    </div>
+                    <div class="feature__card">
+                        <div class="feature__card-boximage">
+                            <img src="./image/main/feature2/Image4.png" alt="">
+                            <div class="feature__info-box">
+                                <div class="feature__info">
+                                    <img src="./image/main/feature/Icon (3).svg" alt="">
+                                    <p>25% off</p>
+                                </div>
+                                <div class="feature__info2">
+                                    <img src="./image/main/feature/Icon (4).svg" alt="">
+                                    <p>Fast</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="feature__box-card">
+                            <img src="./image/main/feature2/taco.svg" alt="">
+                            <div class="feature__box-card1">
+                                <h6 class="feature__subtitle subtitle">Taco Bell</h6>
+                                <a href="#!" class="feature__subtitle2 subtitle2"><img
+                                        src="./image/main/feature/zvezda.svg" alt="">35</a>
+                            </div>
+                        </div>
+                        <button class="feature__btn2">Open Now</button>
+                    </div>
+                </div>
+                <div class="feature__last-btn">
+                    <div class="feature__last-btn2">
+                        <p>View All</p>
+                        <a href=""><img src="./image/main/feature2/Icon3.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="search">
+            <div class="container">
+                <div class="search__box">
+                    <h6 class="search__title title">Search by Food</h6>
+                    <div class="search__box2">
+                        <p>View All</p>
+                        <a href=""><svg width="9" height="13" viewBox="0 0 9 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M7.91797 7.21484C8.16406 6.96875 8.16406 6.55859 7.91797 6.3125L2.61328 0.980469C2.33984 0.734375 1.92969 0.734375 1.68359 0.980469L1.05469 1.60938C0.808594 1.85547 0.808594 2.26562 1.05469 2.53906L5.26562 6.75L1.05469 10.9883C0.808594 11.2617 0.808594 11.6719 1.05469 11.918L1.68359 12.5469C1.92969 12.793 2.33984 12.793 2.61328 12.5469L7.91797 7.21484Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+
+                        <div class="search__box3">
+                            <a href=""><img src="./image/main/popular/Arrow Left.svg" class="arrowleft" alt=""></a>
+                            <a href=""><img src="./image/main/popular/Arrow Right.svg" class="arrowright" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="search__food-cards">
+                    <div class="search__food-card">
+                        <a href="#!"><img src="./image/main/search/Image (1).png" alt=""></a>
+                        <h6 class="search__subtitle subtitle">Pizza</h6>
+                    </div>
+                    <div class="search__food-card">
+                        <a href="#!"><img src="./image/main/search/Image (2).png" alt=""></a>
+                        <h6 class="search__subtitle subtitle">Burger</h6>
+                    </div>
+                    <div class="search__food-card">
+                        <a href="#!"><img src="./image/main/search/Image (3).png" alt=""></a>
+                        <h6 class="search__subtitle subtitle">Noodles</h6>
+                    </div>
+                    <div class="search__food-card">
+                        <a href="#!"><img src="./image/main/search/Image (4).png" alt=""></a>
+                        <h6 class="search__subtitle subtitle">Sub-sandiwch</h6>
+                    </div>
+                    <div class="search__food-card">
+                        <a href="#!"><img src="./image/main/search/Image (5).png" alt=""></a>
+                        <h6 class="search__subtitle subtitle">Chowmein</h6>
+                    </div>
+                    <div class="search__food-card">
+                        <a href="#!"><img src="./image/main/search/Image (6).png" alt=""></a>
+                        <h6 class="search__subtitle subtitle">Steak</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="discount">
+            <div class="container">
+                <div class="discount__box">
+                    <div class="discount__box-card">
+                        <img src="./image/main/discount/discount.svg" alt="">
+                        <h6 class="discount-txt">Daily Discounts</h6>
+                    </div>
+                    <span class="spanbox"></span>
+                    <div class="discount__box-card">
+                        <img src="./image/main/discount/img2.svg" alt="">
+                        <h6 class="discount-txt">Live
+                            Tracing</h6>
+                    </div>
+                    <span class="spanbox"></span>
+                    <div class="discount__box-card">
+                        <img src="./image/main/discount/img3.svg" alt="">
+                        <h6 class="discount-txt">Quick
+                            Delivery</h6>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="instalapp">
+            <div class="container">
+                <div class="intalapp__box">
+                    <div class="iphone-box">
+                        <img src="./image/main/instalapp/iphone1.png" class="iphone-box-img1" alt="">
+                        <img src="./image/main/instalapp/iphone.png" class="iphone-box-img2">
+                    </div>
+                    <div class="iphone-box-box2">
+                        <h2 class="instal__box-title">Install the app</h2>
+                        <p class="instal__box-txt">It's never been easier to order food. Look for the finest discounts
+                            and you'll be lost in a world of delectable food.</p>
+                        <div class="instal__box-link">
+                            <a href=""><img src="./image/main/instalapp/Google Play Download.png"
+                                    class="googleplay-img"></a>
+                            <a href=""><img src="./image/main/instalapp/App Store Download Button.png"
+                                    class="googleplay-img2"></a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </section>
+        <section class="sandwich">
+            <div class="container">
+                <div class="sandwich__box">
+                    <div class="sandwich__box-card">
+                        <h4 class="sandwich__title title">Best deals <span class="span-title">Crispy Sandwiches</span>
+                        </h4>
+                        <p class="sandwich-txt">Enjoy the large size of sandwiches. Complete
+                            perfect slice of sandwiches.</p>
+                        <div class="sandwich__box-btn">
+                            <div class="sandwich-btn">
+                                <p>Proceed to order</p>
+                                <a href="#!"><img src="./image/main/sandwich/CHEVRON-RIGHT.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./image/main/sandwich/Image (1).png" class="sandwich__box-card-img" alt="">
+                </div>
+                <div class="sandwich__box">
+                    <img src="./image/main/sandwich/Image (2).png" class="sandwich__box-card-img" alt="">
+                    <div class="sandwich__box-card">
+                        <h4 class="sandwich__title title">Celebrate parties with<span class="span-title"> Fried
+                                Chicken</span>
+                        </h4>
+                        <p class="sandwich-txt">Get the best fried chicken smeared with a lip smacking lemon chili
+                            flavor. Check out
+                            best deals for fried chicken.</p>
+                        <div class="sandwich__box-btn">
+                            <div class="sandwich-btn">
+                                <p>Proceed to order</p>
+                                <a href="#!"><img src="./image/main/sandwich/CHEVRON-RIGHT.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="sandwich__box">
+                    <div class="sandwich__box-card">
+                        <h4 class="sandwich__title title">Wanna eat hot
+                            & spicy<span class="span-title"> Pizza?</span>
+                        </h4>
+                        <p class="sandwich-txt">Pair up with a friend and enjoy the
+                            hot and crispy pizza pops. Try it
+                            with the best deals.</p>
+                        <div class="sandwich__box-btn">
+                            <div class="sandwich-btn">
+                                <p>Proceed to order</p>
+                                <a href="#!"><img src="./image/main/sandwich/CHEVRON-RIGHT.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <img src="./image/main/sandwich/image3.png" class="sandwich__box-card-img" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="lastsection">
+            <div class="container">
+                <h4 class="last_title">Are you ready to order with the best deals?</h4>
+                <div class="last__box-btn">
+                    <div class="last-btn">
+                        <p>Proceed to order</p>
+                        <a href="#!"><img src="./image/main/sandwich/CHEVRON-RIGHT.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <h3 class="footer__card-title">Our top cities</h3>
+            <div class="footer__card-box">
+                <div class="footer__card">
+                    <ul class="footer__card-list">
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">San Francisco</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Miami</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">San Diego</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">East Bay</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Long Beach</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__card">
+                    <ul class="footer__card-list">
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Los Angeles</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Washington DC</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Seattle</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Portland</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Nashville</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__card">
+                    <ul class="footer__card-list">
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">New York City</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Orange County</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Atlanta</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Charlotte</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Denver</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__card">
+                    <ul class="footer__card-list">
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Chicago</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Phoenix</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Las Vegas</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Sacramento</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Oklahoma City</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__card">
+                    <ul class="footer__card-list">
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Columbus</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">New Mexico</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link"> Albuquerque</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">Sacramento</a>
+                        </li>
+                        <li class="footer__card-item">
+                            <a href="#!" class="footer__card-link">New Orleans</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer__card-box2">
+                <div class="footer__card-box3">
+                    <div class="footer__card">
+                        <h3 class="footer__card-title">Company</h3>
+                        <ul class="footer__card-list">
+                            <li class="footer__card-item">
+                                <a href="#!" class="footer__card-link">About us</a>
+                            </li>
+                            <li class="footer__card-item">
+                                <a href="#!" class="footer__card-link">Team</a>
+                            </li>
+                            <li class="footer__card-item">
+                                <a href="#!" class="footer__card-link">Careers</a>
+                            </li>
+                            <li class="footer__card-item">
+                                <a href="#!" class="footer__card-link">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__card">
+                        <h3 class="footer__card-title">Contact</h3>
+                        <ul class="footer__card-list">
+                            <li class="footer__card-item">
+                                <a href="#!" class="footer__card-link">Help & Support</a>
+                            </li>
+                            <li class="footer__card-item">
+                                <a href="#!" class="footer__card-link">Partner with us</a>
+                            </li>
+                            <li class="footer__card-item">
+                                <a href="#!" class="footer__card-link">Ride with us</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__card">
+                        <h3 class="footer__card-title">Legal</h3>
+                        <ul class="footer__card-list">
+                            <li class="footer__card-item">
+                                <a href="#!" class="footer__card-link">Terms & Conditions</a>
+                            </li>
+                            <li class="footer__card-item">
+                                <a href="#!" class="footer__card-link">Refund & Cancellation</a>
+                            </li>
+                            <li class="footer__card-item">
+                                <a href="#!" class="footer__card-link">Privacy Policy</a>
+                            </li>
+                            <li class="footer__card-item">
+                                <a href="#!" class="footer__card-link">Cookie Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box__cards">
+                    <div class="box__card1">
+                        <h4 class="box__card-title">Follow Us</h4>
+                        <div class="box__card-link">
+                            <a href="#!" class="box__card-link-img"><svg width="22" height="22" viewBox="0 0 22 22"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.5 5.60938C8.5 5.60938 6.10938 8.04688 6.10938 11C6.10938 14 8.5 16.3906 11.5 16.3906C14.4531 16.3906 16.8906 14 16.8906 11C16.8906 8.04688 14.4531 5.60938 11.5 5.60938ZM11.5 14.5156C9.57812 14.5156 7.98438 12.9688 7.98438 11C7.98438 9.07812 9.53125 7.53125 11.5 7.53125C13.4219 7.53125 14.9688 9.07812 14.9688 11C14.9688 12.9688 13.4219 14.5156 11.5 14.5156ZM18.3438 5.42188C18.3438 4.71875 17.7812 4.15625 17.0781 4.15625C16.375 4.15625 15.8125 4.71875 15.8125 5.42188C15.8125 6.125 16.375 6.6875 17.0781 6.6875C17.7812 6.6875 18.3438 6.125 18.3438 5.42188ZM21.9062 6.6875C21.8125 5 21.4375 3.5 20.2188 2.28125C19 1.0625 17.5 0.6875 15.8125 0.59375C14.0781 0.5 8.875 0.5 7.14062 0.59375C5.45312 0.6875 4 1.0625 2.73438 2.28125C1.51562 3.5 1.14062 5 1.04688 6.6875C0.953125 8.42188 0.953125 13.625 1.04688 15.3594C1.14062 17.0469 1.51562 18.5 2.73438 19.7656C4 20.9844 5.45312 21.3594 7.14062 21.4531C8.875 21.5469 14.0781 21.5469 15.8125 21.4531C17.5 21.3594 19 20.9844 20.2188 19.7656C21.4375 18.5 21.8125 17.0469 21.9062 15.3594C22 13.625 22 8.42188 21.9062 6.6875ZM19.6562 17.1875C19.3281 18.125 18.5781 18.8281 17.6875 19.2031C16.2812 19.7656 13 19.625 11.5 19.625C9.95312 19.625 6.67188 19.7656 5.3125 19.2031C4.375 18.8281 3.67188 18.125 3.29688 17.1875C2.73438 15.8281 2.875 12.5469 2.875 11C2.875 9.5 2.73438 6.21875 3.29688 4.8125C3.67188 3.92188 4.375 3.21875 5.3125 2.84375C6.67188 2.28125 9.95312 2.42188 11.5 2.42188C13 2.42188 16.2812 2.28125 17.6875 2.84375C18.5781 3.17188 19.2812 3.92188 19.6562 4.8125C20.2188 6.21875 20.0781 9.5 20.0781 11C20.0781 12.5469 20.2188 15.8281 19.6562 17.1875Z"
+                                        fill="#616161" />
+                                </svg>
+                            </a>
+                            <a href="#!" class="box__card-link-img"><svg width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M23.625 12C23.625 5.57812 18.4219 0.375 12 0.375C5.57812 0.375 0.375 5.57812 0.375 12C0.375 17.8125 4.59375 22.6406 10.1719 23.4844V15.375H7.21875V12H10.1719V9.46875C10.1719 6.5625 11.9062 4.92188 14.5312 4.92188C15.8438 4.92188 17.1562 5.15625 17.1562 5.15625V8.01562H15.7031C14.25 8.01562 13.7812 8.90625 13.7812 9.84375V12H17.0156L16.5 15.375H13.7812V23.4844C19.3594 22.6406 23.625 17.8125 23.625 12Z"
+                                        fill="#616161" />
+                                </svg>
+                            </a>
+                            <a href="#!" class="box__card-link-img"><svg width="24" height="20" viewBox="0 0 24 20"
+                                    fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M21.5156 5.125C22.4531 4.42188 23.2969 3.57812 23.9531 2.59375C23.1094 2.96875 22.125 3.25 21.1406 3.34375C22.1719 2.73438 22.9219 1.79688 23.2969 0.625C22.3594 1.1875 21.2812 1.60938 20.2031 1.84375C19.2656 0.859375 18 0.296875 16.5938 0.296875C13.875 0.296875 11.6719 2.5 11.6719 5.21875C11.6719 5.59375 11.7188 5.96875 11.8125 6.34375C7.73438 6.10938 4.07812 4.14062 1.64062 1.1875C1.21875 1.89062 0.984375 2.73438 0.984375 3.67188C0.984375 5.35938 1.82812 6.85938 3.1875 7.75C2.39062 7.70312 1.59375 7.51562 0.9375 7.14062V7.1875C0.9375 9.57812 2.625 11.5469 4.875 12.0156C4.5 12.1094 4.03125 12.2031 3.60938 12.2031C3.28125 12.2031 3 12.1562 2.67188 12.1094C3.28125 14.0781 5.10938 15.4844 7.26562 15.5312C5.57812 16.8438 3.46875 17.6406 1.17188 17.6406C0.75 17.6406 0.375 17.5938 0 17.5469C2.15625 18.9531 4.73438 19.75 7.54688 19.75C16.5938 19.75 21.5156 12.2969 21.5156 5.78125C21.5156 5.54688 21.5156 5.35938 21.5156 5.125Z"
+                                        fill="#616161" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <form action="" class="form">
+                        <h4 class="form__card-title">Receive exclusive offers in your mailbox</h4>
+                        <div class="footer__form-box">
+                            <div class="input-box">
+                                <a href="#!" class="input-box-img"><svg width="24" height="19" viewBox="0 0 24 19"
+                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M23.5312 6.45312C22.4531 7.29688 21.0938 8.32812 16.3125 11.7969C15.375 12.5 13.6406 14.0469 12 14.0469C10.3125 14.0469 8.625 12.5 7.64062 11.7969C2.85938 8.32812 1.5 7.29688 0.421875 6.45312C0.234375 6.3125 0 6.45312 0 6.6875V16.25C0 17.5156 0.984375 18.5 2.25 18.5H21.75C22.9688 18.5 24 17.5156 24 16.25V6.6875C24 6.45312 23.7188 6.3125 23.5312 6.45312ZM12 12.5C13.0781 12.5469 14.625 11.1406 15.4219 10.5781C21.6562 6.07812 22.125 5.65625 23.5312 4.53125C23.8125 4.34375 24 4.01562 24 3.64062V2.75C24 1.53125 22.9688 0.5 21.75 0.5H2.25C0.984375 0.5 0 1.53125 0 2.75V3.64062C0 4.01562 0.140625 4.34375 0.421875 4.53125C1.82812 5.65625 2.29688 6.07812 8.53125 10.5781C9.32812 11.1406 10.875 12.5469 12 12.5Z"
+                                            fill="#ADADAD" />
+                                    </svg>
+                                </a>
+                                <input type="email" class="footer__card-input" placeholder="Enter Your email" required>
+                            </div>
+                            <button class="footer__card-btn">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="footer__last-box">
+                <div class="footer__last-box-card">
+                    <p>All rights Reserved</p>
+                    <img src="./image/footer/Symbol.svg" alt="">
+                    <p>Your Company, 2021</p>
+                </div>
+                <div class="footer__last-box-card2">
+                    <p>Made with <span><img src="./image/footer/heart (1).svg" width="14x" height="14px"></span>by
+                    </p>
+                    <p>Themewagon</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

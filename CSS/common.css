@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source-Sans-Pro";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  vertical-align: bottom;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea {
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+.title {
+  font-size: 43px;
+  font-family: "Source-Sans-Pro";
+  font-weight: 700;
+}
+.subtitle {
+  font-size: 22px;
+  font-family: "Source-Sans-Pro";
+  font-weight: 700;
+}
+.subtitle2 {
+  font-size: 22px;
+  font-family: "Source-Sans-Pro";
+  font-weight: 400;
+  color:#FFB30E ;
+}
+
+.popular {
+  max-width: 1750px;
+  width: 100%;
+  margin: 0 auto;
+}

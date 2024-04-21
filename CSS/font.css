@@ -1,0 +1,32 @@
+@font-face{
+    src: url(../fonts/source-sans-pro/SourceSansPro-Bold.otf);
+    font-family: "Source-Sans-Pro";
+    font-weight: 700;
+  }
+  @font-face{
+    src: url(../fonts/source-sans-pro/SourceSansPro-Regular.otf);
+    font-family: "Source-Sans-Pro";
+    font-weight: 400;
+  }
+  
+  
+  @font-face{
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+    font-family: "Open_Sans";
+    font-weight: 400;
+  }
+  @font-face{
+    src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf);
+    font-family: "Open_Sans";
+    font-weight: 600;
+  }
+  @font-face{
+    src: url(../fonts/Open_Sans/OpenSans-Bold.ttf);
+    font-family: "Open_Sans";
+    font-weight: 700;
+  }
+  @font-face{
+    src: url(../fonts/Exo_2/static/Exo2-Regular.ttf);
+    font-family: "Exo_2";
+    font-weight: 400;
+  }
